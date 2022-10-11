@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="style.css"> - Importação do data style.css
+<meta charset="UTF-8"> - Referência de correção pra acentuação e usos do teclado
+
+Comandos css para html:
+Style: Inicia comandos de linha no html
+font-size: tamanho da fonte - Pixels
+text-align: Alinhamento de texto - Centralização, Esquerda ou Direita
+Background: Cor de fundo (Texto ou Página) - Hexadecimal ou Cor em inglês
+Padding: Espaçamento interno - Pixels (Padding-top)
+Margin: Espaçamento externo - Pixels
+Height: Altura - Pixels
+Widht: Largura - Porcentagem
+Border: Borda - Pixel - Solid - Cor
+font-style: Modelo de fonte não chamativo
+display: muda a formatação entre inline e block
+text-transform: formato das letras (maiusculo e minúsculo)
+Position: static = padrão, relative: baseado no posicionamento inicial, absolute: baseado na página inteira (uso de espaçamento em relação ao comando top, right, left, down)
+Padding e Margin são usados nos seguintes padrões: top-down e right-left espaçamento ou top right down left espaçamento. Exemplo: 20px 0; 0 0 0 15px; E auto centraliza: 0 auto;
+border: largura tipo(solid, dashed, dotted) e cor da borda
+bordar-radius: arredondamento de borda em pixels
+tag:hover = passagem do mouse naquela tag
+tag:activate = click do mouse ou pressionar naquele elemento
+transition: tempo de delay em s de transição
+transform:scale(1.2) aumenta 20% todos as partes do elemento
+transform: rotate(graus) rotação do elemento
+
+Comandos html:
+H1,2,3...: Titulos e temas das páginas por ordem de importância
+P: Parágrafo
+Head: Tudo que queremos passar de informação ao navegador
+Body: Tudo que queremos exibir no navegador
+ul: Lista não-ordenada
+ol: Lista ordenada
+li: Limitação da lista
+em: Itálico
+strong: negrito
+id: identificador de texto
+header: Cabeçalho
+div: Divide os conteúdos a serem editados
+img src="diretório" - Imagens
+ancor <a> - Link entre páginas
+form: tag de formulário
+fieldset: div de um assunto específico
+legend: parágrafo de fieldset
+label: Identificação da box do formulário
+input: caixa de inserção
+
+
+Comportamento de listas:
+Inline: Não deixa mexer no espaçamento
+Block: Independente dos parâmetros, o próximo conteúdo vai para a próxima linha
+Inline-Block: Permite que possamos mexer em tudo novamente daquela classe
